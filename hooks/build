@@ -1,0 +1,1 @@
+docker build --build-arg NDCTL_VERSION=$NDCTL_VERSION -f $DOCKERFILE_PATH -t $IMAGE_NAME .
